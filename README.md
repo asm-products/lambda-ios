@@ -14,7 +14,7 @@ Visit [https://assembly.com](https://assembly.com) to learn more.
 
 ## How to Contribute
 
-To contribute to the project, find an open bounty at [https://assembly.com/lambda/bounties] (bounties for the iOS project will be tagged with IOS). You will probably want to Make sure the bounty is assigned to you before beginning work! When you have completed the work, issue a pull request and someone will review the code. Once the pull request is accepted and merged, you will be awarded the bounty on the assembly.com website.
+To contribute to the project, find an open bounty at [https://assembly.com/lambda/bounties] (bounties for the iOS project will be tagged with IOS). You will probably want to Make sure the bounty is assigned to you before beginning work! Please create a feature branch with a name that references the bounty number you are working on (ex. BXXX - Fix bug...). When you have completed the work, issue a pull request and someone will review the code. Once the pull request is accepted and merged, you will be awarded the bounty on the assembly.com website.
 
 Issues in this github project that we have decided to address will correspond to bounties on the assembly website. If you find an open issue without a bounty, please notify someone in the chat on the project's assembly page.
 
