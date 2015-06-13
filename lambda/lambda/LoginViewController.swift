@@ -14,12 +14,17 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let logInButton = TWTRLogInButton(logInCompletion: {
+        let twitterLogInButton = TWTRLogInButton(logInCompletion: {
             (session: TWTRSession!, error: NSError!) in
             // play with Twitter session
         })
-        logInButton.center = self.view.center
-        self.view.addSubview(logInButton)
+        twitterLogInButton.center = self.view.center
+        self.view.addSubview(twitterLogInButton)
+        
+        let facebookLoginButton = FBSDKLoginButton()
+        let fbCenter = CGPointMake(self.view.center.x, self.view.center.y + 44)
+        facebookLoginButton.center = fbCenter
+        self.view.addSubview(facebookLoginButton)
     }
 
     override func didReceiveMemoryWarning() {
