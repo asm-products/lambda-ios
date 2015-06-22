@@ -1,16 +1,16 @@
 //
-//  lambdaTests.swift
-//  lambdaTests
+//  CMDLambdaTests.swift
+//  lambda
 //
-//  Created by Brian Cooley on 5/16/15.
+//  Created by Brian Cooley on 6/19/15.
 //  Copyright (c) 2015 Cooley Mobile Development LLC. All rights reserved.
 //
 
-import UIKit
+import Cocoa
 import XCTest
 
-class lambdaTests: XCTestCase {
-    
+class CMDLambdaTests: XCTestCase {
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,17 +20,17 @@ class lambdaTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }
-    
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
 }

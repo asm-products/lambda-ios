@@ -23,8 +23,19 @@
 		586BE2F51B077D0600C4B0DF /* RespondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE2F41B077D0600C4B0DF /* RespondViewController.swift */; };
 		586BE2F71B077D3800C4B0DF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE2F61B077D3800C4B0DF /* ProfileViewController.swift */; };
 		586BE2F91B0780CA00C4B0DF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE2F81B0780CA00C4B0DF /* ResultViewController.swift */; };
+		588D89C31B34CFE300883BC7 /* CMDLambdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D89C21B34CFE300883BC7 /* CMDLambdaTests.swift */; };
 		E75F4CE301C803D57F44682E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA893194D455B0D0C10288 /* libPods.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588D89BD1B34B76A00883BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586BE2BC1B077B0F00C4B0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586BE2C31B077B0F00C4B0DF;
+			remoteInfo = CMDLambda;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CD587512A6DA6C2DC48F977 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,8 +50,6 @@
 		586BE2D11B077B0F00C4B0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		586BE2D31B077B0F00C4B0DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		586BE2D61B077B0F00C4B0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		586BE2E11B077B0F00C4B0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		586BE2E21B077B0F00C4B0DF /* lambdaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lambdaTests.swift; sourceTree = "<group>"; };
 		586BE2EC1B077C8400C4B0DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		586BE2EE1B077CA500C4B0DF /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		586BE2F01B077CD800C4B0DF /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		586BE2F61B077D3800C4B0DF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		586BE2F81B0780CA00C4B0DF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		588D89B21B2C647100883BC7 /* CMDLambda-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMDLambda-Bridging-Header.h"; sourceTree = "<group>"; };
+		588D89B71B34B76A00883BC7 /* CMDLambda Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CMDLambda Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588D89BA1B34B76A00883BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588D89C21B34CFE300883BC7 /* CMDLambdaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMDLambdaTests.swift; sourceTree = "<group>"; };
 		6C177FC3D8707E494EF86F07 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AEAA893194D455B0D0C10288 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		588D89B41B34B76A00883BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				586BE2C61B077B0F00C4B0DF /* lambda */,
-				586BE2DF1B077B0F00C4B0DF /* lambdaTests */,
+				588D89B81B34B76A00883BC7 /* CMDLambda Tests */,
 				586BE2C51B077B0F00C4B0DF /* Products */,
 				5815C92A1B1DF6810015CF47 /* Fabric.framework */,
 				5815C92B1B1DF6810015CF47 /* TwitterKit.framework */,
@@ -87,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				586BE2C41B077B0F00C4B0DF /* CMDLambda.app */,
+				588D89B71B34B76A00883BC7 /* CMDLambda Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,19 +140,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		586BE2DF1B077B0F00C4B0DF /* lambdaTests */ = {
+		588D89B81B34B76A00883BC7 /* CMDLambda Tests */ = {
 			isa = PBXGroup;
 			children = (
-				586BE2E21B077B0F00C4B0DF /* lambdaTests.swift */,
-				586BE2E01B077B0F00C4B0DF /* Supporting Files */,
+				588D89C21B34CFE300883BC7 /* CMDLambdaTests.swift */,
+				588D89B91B34B76A00883BC7 /* Supporting Files */,
 			);
-			path = lambdaTests;
+			path = "CMDLambda Tests";
 			sourceTree = "<group>";
 		};
-		586BE2E01B077B0F00C4B0DF /* Supporting Files */ = {
+		588D89B91B34B76A00883BC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				586BE2E11B077B0F00C4B0DF /* Info.plist */,
+				588D89BA1B34B76A00883BC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,6 +197,24 @@
 			productReference = 586BE2C41B077B0F00C4B0DF /* CMDLambda.app */;
 			productType = "com.apple.product-type.application";
 		};
+		588D89B61B34B76A00883BC7 /* CMDLambda Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588D89C11B34B76A00883BC7 /* Build configuration list for PBXNativeTarget "CMDLambda Tests" */;
+			buildPhases = (
+				588D89B31B34B76A00883BC7 /* Sources */,
+				588D89B41B34B76A00883BC7 /* Frameworks */,
+				588D89B51B34B76A00883BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588D89BE1B34B76A00883BC7 /* PBXTargetDependency */,
+			);
+			name = "CMDLambda Tests";
+			productName = "CMDLambda Tests";
+			productReference = 588D89B71B34B76A00883BC7 /* CMDLambda Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,6 +226,10 @@
 				TargetAttributes = {
 					586BE2C31B077B0F00C4B0DF = {
 						CreatedOnToolsVersion = 6.3.1;
+					};
+					588D89B61B34B76A00883BC7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 586BE2C31B077B0F00C4B0DF;
 					};
 				};
 			};
@@ -205,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				586BE2C31B077B0F00C4B0DF /* CMDLambda */,
+				588D89B61B34B76A00883BC7 /* CMDLambda Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +261,13 @@
 				586BE2D21B077B0F00C4B0DF /* Main.storyboard in Resources */,
 				586BE2D71B077B0F00C4B0DF /* LaunchScreen.xib in Resources */,
 				586BE2D41B077B0F00C4B0DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588D89B51B34B76A00883BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +336,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		588D89B31B34B76A00883BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588D89C31B34CFE300883BC7 /* CMDLambdaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		588D89BE1B34B76A00883BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 586BE2C31B077B0F00C4B0DF /* CMDLambda */;
+			targetProxy = 588D89BD1B34B76A00883BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		586BE2D01B077B0F00C4B0DF /* Main.storyboard */ = {
@@ -421,6 +487,40 @@
 			};
 			name = Release;
 		};
+		588D89BF1B34B76A00883BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMDLambda Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMDLambda.app/CMDLambda";
+			};
+			name = Debug;
+		};
+		588D89C01B34B76A00883BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMDLambda Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMDLambda.app/CMDLambda";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +538,15 @@
 			buildConfigurations = (
 				586BE2E71B077B0F00C4B0DF /* Debug */,
 				586BE2E81B077B0F00C4B0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588D89C11B34B76A00883BC7 /* Build configuration list for PBXNativeTarget "CMDLambda Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588D89BF1B34B76A00883BC7 /* Debug */,
+				588D89C01B34B76A00883BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
